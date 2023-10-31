@@ -11,7 +11,7 @@ def encode(string):
 
 
 def decode(string):
-	newStr = ""
+    newStr = ""
     #Iterates through characters in string: subracts 3, then takes modulo 10
     for i in string:
         newStr += str((int(i)-3)%10)
