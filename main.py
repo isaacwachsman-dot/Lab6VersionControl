@@ -10,6 +10,14 @@ def encode(string):
     return newStr
 
 
+def decode(string):
+	newStr = ""
+    #Iterates through characters in string: subracts 3, then takes modulo 10
+    for i in string:
+        newStr += str((int(i)-3)%10)
+
+    return newStr
+
 #Main Function
 def main():
     #Print out the menu with options
