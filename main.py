@@ -1,4 +1,4 @@
-#Lab 6 - Isaac and Harshil
+#Lab 6 - Isaac Wachsman
 
 #String Encoder Function
 def encode(string):
